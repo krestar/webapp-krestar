@@ -10,6 +10,32 @@
 <maven.compiler.source>21</maven.compiler.source>
 <maven.compiler.target>21</maven.compiler.target>
 </properties>
+<dependencies>
+
+		<dependency>
+
+			<groupId>org.apache.tomcat</groupId>
+
+			<artifactId>tomcat-servlet-api</artifactId>
+
+			<version>10.1.26</version>
+
+			<scope>provided</scope>
+
+		</dependency>
+
+		<dependency>
+
+	        <groupId>org.apache.tomcat.embed</groupId>
+
+	        <artifactId>tomcat-embed-core</artifactId>
+
+	        <version>10.1.24</version> <!-- 사용하려는 Tomcat 버전 -->
+
+	    </dependency>
+
+	</dependencies>
+
 <build>
 <plugins>
 <plugin>
